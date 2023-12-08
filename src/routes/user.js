@@ -15,7 +15,7 @@ userRouter
         return resp.status(400).json(respObj)
       }
       respObj = {
-        status: "success",
+        status: "success", 
         msg: res
       }
       resp.status(201).json(respObj)
