@@ -4,7 +4,7 @@
   "description": "User API web application",
   "main": "userapi/src/index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node userapi/src/index.js",
     "test": "./node_modules/.bin/mocha test/*.js"
   },
   "author": "Sergei Kudinov",
